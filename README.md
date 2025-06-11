@@ -12,7 +12,7 @@ A modern real estate web application for Athens, Greece, featuring an interactiv
 
 - **Course**: CLD6001 - Undergraduate Research Project
 - **Institution**: New York College Greece / University of Bolton
-- **Student**: Alexa
+- **Student**: 2121384
 - **Academic Year**: 2024/2025
 
 ## 🚀 Quick Start

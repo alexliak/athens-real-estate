@@ -1,0 +1,70 @@
+/* Custom styles for Athens Real Estate */
+
+/* Footer styling - Always at bottom */
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+#__next {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+footer {
+  flex-shrink: 0;
+  margin-top: auto;
+}
+
+/* Navbar improvements */
+.navbar {
+  box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+/* Property card hover effects */
+.property-card {
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.property-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,.15);
+}
+
+/* Map container */
+.leaflet-container {
+  z-index: 1;
+}
+
+/* Search bar styling */
+.search-container {
+  background: rgba(255,255,255,0.95);
+  backdrop-filter: blur(10px);
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,.1);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .property-list-container {
+    height: 50vh !important;
+  }
+  
+  footer {
+    padding: 0.5rem 0 !important;
+  }
+  
+  footer p {
+    font-size: 0.75rem !important;
+  }
+}

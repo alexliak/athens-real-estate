@@ -1,0 +1,64 @@
+/* Property Card Styling */
+.property-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border: 1px solid #e0e0e0;
+}
+
+.property-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.property-card img {
+  transition: transform 0.3s ease;
+}
+
+.property-card:hover img {
+  transform: scale(1.05);
+}
+
+/* Map Markers */
+.property-marker {
+  transition: transform 0.2s ease;
+}
+
+.property-marker:hover {
+  transform: scale(1.1);
+  z-index: 1000 !important;
+}
+
+/* Scrollbar για property list */
+.property-list-container::-webkit-scrollbar {
+  width: 8px;
+}
+
+.property-list-container::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.property-list-container::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+.property-list-container::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Selected property highlight */
+.property-card.selected {
+  background-color: #f0f7ff;
+  box-shadow: 0 0 0 2px #0d6efd;
+}
+
+/* Image fallback styling */
+.property-image-placeholder {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  text-align: center;
+  height: 100%;
+}

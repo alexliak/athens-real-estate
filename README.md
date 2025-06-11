@@ -37,7 +37,7 @@ A modern real estate web application for Athens, Greece, featuring interactive m
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/[your-username]/real-estate-athens.git
+git clone https://github.com/alexliak/athens-real-estate.git
 cd real-estate-athens
 ```
 

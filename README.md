@@ -138,7 +138,7 @@ This project is part of an undergraduate research project at New York College Gr
 
 ## 👤 Author
 
-**Alexa**
+**Alexandros**
 - BSc Computing with Foundation (Data Analyst, Application Development)
 - New York College Greece / University of Bolton
 
